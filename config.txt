@@ -1,3 +1,4 @@
-RTSP-STREAM=""
+RTSP-STREAM="rtsp://"
 YOUTUBE-KEY=""
-CONDITIONS-FILE=""
+CONDITIONS-FILE="/root/conditions.txt"
+TIMELAPSE-RAW-PATH="/root/timelapse/raw/"
