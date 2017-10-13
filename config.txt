@@ -1,4 +1,5 @@
 RTSP-STREAM="rtsp://"
 YOUTUBE-KEY=""
 CONDITIONS-FILE="/root/conditions.txt"
-TIMELAPSE-RAW-PATH="/root/timelapse/raw/"
+TIMELAPSE-RAW-PATH="/root/timelapse/raw"
+TIMELAPSE-OUTPUT-PATH="/root/timelapse/output"
