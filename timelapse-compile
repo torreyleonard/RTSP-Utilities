@@ -2,5 +2,5 @@ source config.txt
 
 date="$(date "+%m_%d_%Y")"
 date2="$(date "+%m-%d-%y")"
-ffmpeg -f image2 -i $TIMELAPSE-RAW-PATH/%*.jpg -vcodec libx264 -r 60 -strftime 1 $TIMELAPSES-OUTPUT-PATH/"${date}".mp4 -y
+ffmpeg -f image2 -i $TIMELAPSE-RAW-PATH/%*.jpg -vcodec libx264 -r 60 -strftime 1 $TIMELAPSE-OUTPUT-PATH/"${date}".mp4 -y
 rm $TIMELAPSE-RAW-PATH/*
